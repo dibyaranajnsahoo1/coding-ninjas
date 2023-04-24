@@ -16,7 +16,6 @@ for (let i = 1; i <= totalHrs; i++) {
 
 let totalMins = 59
 
-
 for (let i = 0; i <= totalMins; i++) {
     setMin.options[setMin.options.length] = new Option(i < 10 ? '0' + i : i)
 }
